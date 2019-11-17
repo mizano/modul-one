@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title>About {{this.user}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<ion-card class="card">
+  <ion-card-header>
+    <ion-card-title>{{this.name}}</ion-card-title>
+    <ion-card-subtitle>{{this.email}}</ion-card-subtitle>
+  </ion-card-header>
+
+  <ion-card-content>
+    Age is {{this.age}} and the Password is <b>{{this.password}}</b>
+  </ion-card-content>
+</ion-card>
+</ion-content>
+
